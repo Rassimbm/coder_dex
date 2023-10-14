@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+    margin: 20px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: lightskyblue;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 8px 4px 4px grey;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.card img {
+    height: 128px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
